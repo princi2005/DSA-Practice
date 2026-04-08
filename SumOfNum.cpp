@@ -12,6 +12,9 @@ int SumOfNum(int n){
 int main(){
     int n;
     cout<<"Enter a number ";
+    cout<<"Enter a number";
     cin>>n;
+    int i =0;
+    
     cout<<"The sum of number from 1 to " <<n<< " is "<<SumOfNum(n);
 }
