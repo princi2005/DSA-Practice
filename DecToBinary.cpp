@@ -7,8 +7,8 @@ int decToBinary(int DecNum){
 
     while (DecNum>0)
     {
-        int rem = DecNum % 2;
         DecNum/=2;
+        int rem = DecNum % 2;
         ans+=(rem * power);
         power*=10;
     }
