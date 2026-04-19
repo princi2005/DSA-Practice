@@ -20,5 +20,6 @@ int BinToDecimal(int BinNum){
 int main(){
 
     cout<<BinToDecimal(110010)<<endl;
+    
     return 0;
 }
