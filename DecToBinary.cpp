@@ -3,7 +3,8 @@
 #include<iostream>
 using namespace std;
 
-int DecToNum(int decNum){
+int DecToNum(int decNum)
+{
     int ans = 0;
     int power = 1;
 
