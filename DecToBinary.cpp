@@ -10,7 +10,7 @@ int DecToNum(int decNum){
     while (decNum > 0)
     {
         int rem = decNum % 2;
-        decNum/=2;
+        decNum /= 2;
         ans = ans + (rem*power);
         power *= 10;
     }
