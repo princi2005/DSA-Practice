@@ -14,4 +14,5 @@ int main(){
     cout<<"Enter a number ";
     cin>>n;
     cout<<"The sum of number from 1 to " <<n<< " is "<<SumOfNum(n);
+    return 0;
 }
