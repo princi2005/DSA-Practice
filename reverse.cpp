@@ -12,7 +12,8 @@ void reverseArray(int arr[],int size)
     }
     
 }
-int main(){
+int main()
+{
     int arr[]={2,4,8,10,12,9};
     int size = 6;
     
