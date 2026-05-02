@@ -2,6 +2,7 @@
 using namespace std;
 
 int SumOfDigit(int num){
+
     int digitSum = 0;
     while(num > 0)
     {
@@ -11,6 +12,7 @@ int SumOfDigit(int num){
     }
     return digitSum;
 }
+
 int main(){
     int num;
     cout<<"Enter a number ";
