@@ -13,7 +13,8 @@ int SumOfDigit(int num){
     return digitSum;
 }
 
-int main(){
+int main()
+{
     int num;
     cout<<"Enter a number ";
     cin>>num;
