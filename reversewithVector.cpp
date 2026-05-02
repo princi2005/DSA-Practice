@@ -16,9 +16,10 @@ void reverseArray(vector<int> &num, int size)
 int main()
 {
     vector<int> num={1,2,3,4,5,6};
-    
     reverseArray(num,num.size());
-    for(int x : num){
+
+    for(int x : num)
+    {
         cout << x << " ";
     }
     return 0;
