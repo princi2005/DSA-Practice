@@ -7,7 +7,6 @@ int linear(int arr[],int size,int target){
         {
            return i;
         }
-        
     }
     return -1;
 }
