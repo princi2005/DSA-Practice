@@ -17,8 +17,8 @@ int main()
             currSum+=arr[end];
             maxSum = max(currSum,maxSum);
         }
-        
     }
     cout<<maxSum;
+    
     return 0;
 }
