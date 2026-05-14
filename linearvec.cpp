@@ -10,8 +10,8 @@ int main(){
     num.push_back(4);
     num.push_back(5);
     num.push_back(6);
+
     int target = 6;
-    
      for (int i = 0; i <num.size() ; i++)
     {
         if (num[i]==target)
@@ -21,5 +21,4 @@ int main(){
         
     }
     return 0;
-
 }
