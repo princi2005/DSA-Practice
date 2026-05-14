@@ -3,7 +3,8 @@
 #include<climits>
 using namespace std;
 
-int MaxSubArray(vector<int>& nums){
+int MaxSubArray(vector<int>& nums)
+{
     int currSum=0;
     int maxSum = INT_MIN;
     
