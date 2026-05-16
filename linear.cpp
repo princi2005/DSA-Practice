@@ -12,7 +12,8 @@ int linear(int arr[],int size,int target){
     return -1;
 }
 
-int main(){
+int main()
+{
     int arr[]={2,4,8,10,12};
     int size = 5;
     int target = 8;
