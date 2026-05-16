@@ -1,9 +1,9 @@
 //convert binary to decimal number.
-
 #include<iostream>
 using namespace std;
 
-int BinToDecimal(int BinNum){
+int BinToDecimal(int BinNum)
+{
     int ans = 0;
     int power = 1;
 
