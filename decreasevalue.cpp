@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int n = 5;
     for (int st = 0; st< n; st++)
     {
