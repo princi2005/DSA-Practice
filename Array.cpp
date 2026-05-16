@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int smallestNum = INT8_MIN;
     int num[] = {1,2,3,4,5};
     int size = 5;
