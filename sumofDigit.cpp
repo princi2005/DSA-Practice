@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
 
-int SumOfDigit(int num){
+int SumOfDigit(int num)
+{
+    int sumDigit=0;
 
-    int digitSum = 0;
-    while(num > 0)
+    while (num>0)
     {
-        int lastdigit = num%10;
+        int lastsum = num%10;
         num = num/10;
-        digitSum = digitSum+lastdigit;
+        sumDigit+=lastsum;
     }
-    return digitSum;
+    return sumDigit;
 }
-
 int main()
 {
     int num;
