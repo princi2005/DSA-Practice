@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 int trailingZeroes(int n)
 {
     int count = 0;
@@ -17,8 +15,10 @@ int trailingZeroes(int n)
 }
 
 int main(){
+    
     int n;
     cout<<"Enter a number ";
     cin>>n;
     cout<<"The sum of number from 1 to " <<n<< " is "<<trailingZeroes(n);
+    return 0;
 }
