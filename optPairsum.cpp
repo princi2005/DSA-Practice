@@ -8,6 +8,7 @@ vector<int> pairsum(vector<int> nums, int target)
     int i = 0;
     int j = n - 1;
     vector<int> ans;
+    
     while (i < j)
     {
         int pairsum = nums[i] + nums[j];
