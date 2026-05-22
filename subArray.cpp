@@ -1,4 +1,3 @@
-//Print subArray
 #include<iostream>
 using namespace std;
 
