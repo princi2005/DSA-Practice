@@ -5,7 +5,8 @@ using namespace std;
 class solution
 {
     public:
-    vector<int> productExceptSelf(vector<int> &nums){
+    vector<int> productExceptSelf(vector<int> &nums)
+    {
         int n = nums.size();
         vector<int>ans(n,1);
 
