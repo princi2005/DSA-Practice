@@ -7,7 +7,7 @@ class Solution
 {
 public:
     int maxProfit(vector<int>& price)
-     {
+    {
         
         if (price.empty()) return 0;
 
