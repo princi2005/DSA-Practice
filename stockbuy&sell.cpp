@@ -1,13 +1,13 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
 
 class Solution
 {
 public:
-    int maxProfit(vector<int>& price) {
+    int maxProfit(vector<int>& price)
+     {
         
         if (price.empty()) return 0;
 
