@@ -15,11 +15,11 @@ int SumOfDigit(int num)
 }
 int main()
 {
-
     int num;
+
     cout<<"Enter a number ";
     cin>>num;
     cout<<"The sum of number from 1 to " <<num<< " is "<<SumOfDigit(num);
-    
+
     return 0;
 }
