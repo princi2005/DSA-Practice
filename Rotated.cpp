@@ -5,6 +5,7 @@ using namespace std;
 int search(vector<int> A, int tar)
 {
     int st = 0, end = A.size() - 1;
+    
     while (st <= end)
     {
         int mid = st + (end - st) / 2;
