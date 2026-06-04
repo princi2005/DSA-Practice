@@ -11,8 +11,8 @@ int main()
 	{
 	    if(arr[i] > max)
 	    {
-		max = arr[i];
-	     }
+	    	max = arr[i];
+	    }
 	}
 	cout<<"largest element "<<max;
 	return 0;
