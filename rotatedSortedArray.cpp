@@ -29,6 +29,7 @@ int search(vector<int> A,int tar)
 			}
 		}
 	}
+	
 	return -1;
 }
 			
