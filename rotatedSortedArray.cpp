@@ -20,7 +20,8 @@ int search(vector<int> A,int tar)
 			}else{
 				st = mid+1;
 			}
-		}else{
+		}else
+		{
 			if(A[mid]<=tar && tar<=A[end])
 			{
 				st=mid+1;
@@ -28,8 +29,7 @@ int search(vector<int> A,int tar)
 				end=mid-1;
 			}
 		}
-	}
-	
+	}	
 	return -1;
 }
 			
