@@ -11,9 +11,11 @@ int singleElement(vector<int>&nums){
     }
     return ans;
 }
+
 int main()
 {
     vector<int>nums = {3,2,3,2,4};
+
     cout<<singleElement(nums);
    
     return 0;
