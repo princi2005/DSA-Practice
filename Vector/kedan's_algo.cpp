@@ -8,7 +8,6 @@ int maxSubArray(int nums[], int size) {
 
     for (int i = 0; i < size; i++) {
         cursum += nums[i];
-
         maxsum = max(maxsum, cursum);
 
         if (cursum < 0) {
