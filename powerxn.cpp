@@ -7,7 +7,6 @@ public:
 
         long long binform = n;
 
-        // Negative exponent
         if (binform < 0) {
             x = 1 / x;
             binform = -binform;
@@ -15,7 +14,7 @@ public:
 
         double ans = 1;
 
-        // Binary Exponentiation
+        
         while (binform > 0) {
 
             // If current binary bit is 1
@@ -23,10 +22,8 @@ public:
                 ans *= x;
             }
 
-            // Square x
             x *= x;
 
-            // Move to next binary bit
             binform /= 2;
         }
 
