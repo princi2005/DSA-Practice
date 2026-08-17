@@ -1,28 +1,23 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include<iostream>
+#include<vector>
 using namespace std;
 
-class Solution
+int Maxprofit(vector<int> &prices)
 {
-public:
-    int maxProfit(vector<int>& price)
-    {
-        
-        if (price.empty()) return 0;
-
-        int maxProfit = 0;
-        int bestbuy = price[0];
-
-        for (int i = 1; i < price.size(); i++) {
-
-            if (price[i] > bestbuy) {
-                maxProfit = max(maxProfit, price[i] - bestbuy);
-            }
-
-            bestbuy = min(bestbuy, price[i]);
-        }
-
-        return maxProfit;
+	int maxProfit = 0, bestBuy = prices[0];
+	for(int i = 0; i<prices.size(); i++)
+	{
+		if(prices[i] > bestBuy)
+		{
+			maxProfit = max(maxProfit, prices[i] - bestBuy);
+		}
+		bestBuy = min(bestBuy,prices[i]);
     }
-};
+    return maxProfit;
+}
+int main()
+{
+		vector<int>prices = {7,1,5,3,6,2};
+		cout<<Maxprofit(prices);
+		return 0;
+}
