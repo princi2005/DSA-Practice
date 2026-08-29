@@ -5,11 +5,11 @@ int main()
 {
     int arr[] = {1,2,3,4,5};
     int n = 5;
-    // int maxElement = INT16_MIN;
+    // int minElement = INT16_MAX;
     int max = arr[0];
     for (int i = 0; i < n; i++)
     {
-    //    maxElement = max(maxElement,arr[i]);
+    //    minElement = min(maxElement,arr[i]);
             if(arr[i] < max){
                 max = arr[i];
             }
