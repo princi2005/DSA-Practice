@@ -14,6 +14,7 @@ int DecToNum(int decNum)
         ans = ans + (rem*power);
         power *= 10;
     }
+    
     return ans;
 }
 
