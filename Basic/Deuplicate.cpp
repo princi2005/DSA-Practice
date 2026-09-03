@@ -9,9 +9,7 @@ int remove(int arr[],int size){
         cout<<"duplicate"<<i;
     }
     
- }
- 
-    
+ }  
 }
 int main(){
     int arr[]={1,1,2,3,4};
