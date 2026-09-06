@@ -13,8 +13,7 @@ int main()
             if (arr[i] == arr[j])
             {
                 cout<<arr[i]<<",";
-            }
-            
+            } 
         }
         
     }
