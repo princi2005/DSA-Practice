@@ -19,6 +19,7 @@ int main()
 {
 	int arr[] = {12,5,6,8,9};
 	int n = 5;
+	
 	cout<<smallestElement(arr,n);
 	return 0;
 }
