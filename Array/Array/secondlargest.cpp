@@ -7,6 +7,7 @@ int main()
     int n=5;
     int largest=0;
     int seclargest=0;
+
     for (int i = 0; i < n; i++)
     {
        if (largest<arr[i])
@@ -15,6 +16,7 @@ int main()
            largest=arr[i];
        }
     }
+    
     cout<<seclargest;
     return 0;
 }
