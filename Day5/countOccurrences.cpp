@@ -35,7 +35,7 @@ int main()
             }
         }
 
-        cout << arr[i] << " :- " << count << endl;
+        // cout<< arr[i] << " :- " << count << endl;
     }
 
     return 0;
