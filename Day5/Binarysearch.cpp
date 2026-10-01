@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int binarysearch(int arr[],int n,int target){
     int start = 0;
     int end = n - 1;
