@@ -14,7 +14,6 @@ int main()
             cout<<"taget found at : " << i;
             return 0;
         }
-        
     }
     cout<<"element not found";
     return 0;
