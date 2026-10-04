@@ -13,7 +13,6 @@ int main()
         {
             if (first == -1)
                 first = i;
-
             last = i;
         }
     }
