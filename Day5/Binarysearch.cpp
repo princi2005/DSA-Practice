@@ -8,7 +8,7 @@ int binarysearch(int arr[],int n,int target)
 
     while (start <= end)
     {
-        
+
         int mid = (start + end) / 2;
         if (arr[mid] == target)
             return mid;
@@ -21,6 +21,7 @@ int binarysearch(int arr[],int n,int target)
     }
     return -1;
 }
+
 int main()
 {
     int arr[] = {1,2,3,4,5,6,7,8,9};
