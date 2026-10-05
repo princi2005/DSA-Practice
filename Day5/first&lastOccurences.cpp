@@ -16,6 +16,7 @@ int main()
             last = i;
         }
     }
+    
     cout << "First = " << first << endl;
     cout << "Last = " << last;
 
