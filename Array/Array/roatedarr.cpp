@@ -16,7 +16,7 @@ int main()
         arr[j] = temp;
     }
 
-    // Reverse first k elements
+   
     for (int i = 0, j = k-1; i < j; i++, j--)
     {
         int temp = arr[i];
