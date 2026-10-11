@@ -13,7 +13,6 @@ int main()
     {
         sum += arr[i] ;
     }
-
     int missing = total - sum;
 
     cout << missing;
