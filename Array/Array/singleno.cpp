@@ -12,7 +12,6 @@ int main()
     {
         ans = ans ^ arr[i];
     }
-
     cout << ans;
 
     return 0;
