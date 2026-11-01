@@ -11,7 +11,6 @@ int main()
         {
             count++;
         }
-        
     }
     cout<<count;
     return 0;
