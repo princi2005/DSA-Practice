@@ -12,5 +12,6 @@ int main()
         b=rem;
     }
     cout<<a;
+    
     return 0;
 }
