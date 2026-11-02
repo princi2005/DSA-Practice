@@ -12,6 +12,7 @@ int main()
             n= n/i;
         }   
     }
+    
     if (n >1)
     {
        cout<<n;
