@@ -11,6 +11,7 @@ int main()
         a=b;
         b=rem;
     }
+    
     cout<<a;
     
     return 0;
