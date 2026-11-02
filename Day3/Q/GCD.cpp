@@ -12,7 +12,6 @@ int main()
         {
             cf = i;
         }
-        
     }
     cout<<"HCF/GCD: "<<cf;
     return 0;
