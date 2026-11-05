@@ -15,7 +15,6 @@ int main()
     if (n >1)
     {
        cout<<n;
-    }
-    
+    } 
     return 0;
 }
