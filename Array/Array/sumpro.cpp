@@ -12,6 +12,7 @@ int main()
         // sum+=arr[i];
         product*=arr[i];
     }
+    
     cout<<product;
     return 0;
 }
