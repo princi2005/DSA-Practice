@@ -21,6 +21,5 @@ int main()
     }
     
     cout<<"second largest value = "<<secondlargest;
-    
     return 0;
 }
