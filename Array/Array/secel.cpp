@@ -19,7 +19,6 @@ int main()
             secondlargest = arr[i];
         }
     }
-    
     cout<<"second largest value = "<<secondlargest;
     return 0;
 }
