@@ -29,7 +29,6 @@ int main()
 
         leftSum += nums[i];
     }
-
     cout << "Pivot Index: -1";
 
     return 0;
