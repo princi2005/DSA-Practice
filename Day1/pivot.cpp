@@ -22,6 +22,7 @@ int main()
         if (leftSum == rightSum)
         {
             cout << "Pivot Index: " << i;
+            
             return 0;
         }
 
