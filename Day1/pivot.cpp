@@ -15,7 +15,6 @@ int main()
 
     int leftSum = 0;
 
-    // Find pivot index
     for (int i = 0; i < nums.size(); i++)
     {
         int rightSum = totalSum - leftSum - nums[i];
