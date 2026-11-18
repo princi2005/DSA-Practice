@@ -8,7 +8,6 @@ int main()
 
     int totalSum = 0;
 
-    // Calculate total sum
     for (int i = 0; i < nums.size(); i++)
     {
         totalSum += nums[i];
